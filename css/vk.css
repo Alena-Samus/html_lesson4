@@ -1,0 +1,77 @@
+h1, h2, h3, h4{
+  font-family: Arial;
+  text-align: left;
+  padding: 0 0 12px 0; 
+  color: #49678D;
+}
+h1 {
+  font-size: 130%;
+  font-weight: normal;
+  letter-spacing: 0.6pt;
+  border-bottom: 3px solid #f0f0f2; 
+  }
+  h2 {
+  font-size: 120%;
+  letter-spacing: 0.5pt;
+  font-weight: bold;
+  border-bottom: 3px solid #f0f0f2; 
+  clear: both;  /*отменяет обтекание*/
+  }
+  h3 {
+  font-size: 120%;
+  letter-spacing: 0.5pt;
+  font-weight: bold;
+  border-bottom: 2px solid #f0f0f2; 
+  }
+h4 {
+  font-size: 95%;
+  letter-spacing: 0.5pt;
+  font-weight: bold;
+  border-bottom: 2px solid #f0f0f2; 
+  }
+#logo{                            
+  font-family: Arial;
+  text-align: left;
+  font-size: 90%;
+  letter-spacing: 0.3pt;
+  line-height: 13pt;
+  padding: 3px 10px 0 5px; 
+}
+img {
+width: 4%;
+float:left;
+padding: 3px 12px 0 0; 
+}
+
+form {
+  width: 1000px;
+  font-family: Arial;
+  text-align: left;
+  font-size: 90%;
+  overflow: hidden; /*содержимое, выходящее за пределы блока элемента, будет скрыто.*/
+  
+}
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.account-info label {
+  color: grey;
+}
+.name{
+padding: 0 0 0 34px; 
+}
+.E-Mail{
+padding: 0 0 0 22px; 
+}
+.password{
+padding: 0 0 0 12px; 
+}
+.account-info input {
+  background: #fff;
+  border: 1px solid #c6c7cc;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
+  color: #636466;
+}

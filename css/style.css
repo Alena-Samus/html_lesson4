@@ -1,0 +1,54 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+h1, h2, h3{
+  color: #0a3d72;
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+}
+ 
+.account-info{
+  color: #c6c7cc;
+  border-top:2px solid #c6c7cc;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+
+}
+
+.account-info label{
+width: 100px; /* Ширина */
+    text-align: right; /* Выравниваем по правому краю */
+    float: left; /* Выстраиваем элементы рядом */
+    margin-right: 10px; /* Расстояние от текста до текстового поля */
+    line-height: 30px; 
+
+}
+
+.account-education{
+  color: #c6c7cc;
+  border-top:2px solid #c6c7cc;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+}
+
+.account-action{
+  color: #c6c7cc;
+  border-top:2px solid #c6c7cc;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+}
+ p{
+   font-family: Arial, Helvetica, sans-serif;
+ }
+ input{
+   width: 185px;
+ }
+ img{
+   width: 40px;
+ }

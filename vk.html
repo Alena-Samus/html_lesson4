@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Формы на веб-странице 3</title>
+  <link rel="stylesheet" href="css/vk.css">
+</head>
+
+<body>
+  <header>
+    <h1>Регистрация</h1>
+  </header>
+  <main>
+    <div id="logo"><img src="images/VK-0.jpg" border="0" alt="" title="" /> <b>ВКонтакте.ру</b> - сетевой проект, который поможет Вам узнать больше о людях, которые Вас окружают, а также найти потерянных друзей и поддерживать с ними связь. Вы сможете делиться информацией, ограничивая круг лиц, которым она будет доступна.
+    </div>
+   
+      <h2>Имя</h2>
+      <form action="/signup" method="POST">
+       
+        <fieldset class="account-info">
+          <p class="name"><label>Имя:</label> 
+          <input type="text" name="first_name">
+        <label>Допускаются только настоящие имя и фамилия</label></p>
+          <p class="last_name"><label>Фамилия:</label> 
+          <input type="text" name="last_name"></p>
+          <p class="E-Mail"><label>E-Mail:</label> 
+          <input type="text" required="required" class="email notnull"></p>
+          <p class="password"><label>Пароль:</label>
+          <input type="password" name="password"></p>
+          
+          <h3>Образование</h3>
+
+          <label>Страна:</label>
+          <select name="country">
+            <option>Россия</option>
+            <option>Беларусь</option>
+            <option>Украина</option>
+            <option>Польша</option>
+            <option>Литва</option>
+            <option>Латвия</option>
+            <option>Эстония</option>
+            <option>США</option>
+          </select>
+
+          <label>Город:</label>
+          <select name="city">
+          <option>Минск</option>
+          <option>Гродно</option>
+          <option>Брест</option>
+          <option>Витебск</option>
+          <option>Гомель</option>
+          <option>Могилев</option>
+          <option>Бобруйск</option>
+          <option>Молодечно</option>
+          </select>
+
+          <h4>Школа</h4>
+          <label>Школа:</label>
+          <select name="school">
+            <option>Минск</option>
+            <option>Гродно</option>
+            <option>Брест</option>
+            <option>Витебск</option>
+            <option>Гомель</option>
+            <option>Могилев</option>
+            <option>Бобруйск</option>
+            <option>Молодечно</option>
+          </select>
+
+          <h4>Университет</h4>
+          <label>Вуз:</label>
+          <select name="univer">
+            <option>Минск</option>
+            <option>Гродно</option>
+            <option>Брест</option>
+            <option>Витебск</option>
+            <option>Гомель</option>
+            <option>Могилев</option>
+            <option>Бобруйск</option>
+            <option>Молодечно</option>
+          </select>
+
+        </fieldset>
+        <fieldset class="account-action">
+          <input class="btn" type="submit" name="submit" value="Зарегистрироваться">
+        </fieldset>
+      </form>
+  </main>
+  <footer class="foot">
+    Фактом регистрации Вы соглашаетесь с Пользовательским соглашением
+  </footer>
+</body>
+
+</html>
