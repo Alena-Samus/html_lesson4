@@ -44,11 +44,11 @@ padding: 3px 12px 0 0;
 }
 
 form {
-  width: 1000px;
+  width: 800px;
   font-family: Arial;
   text-align: left;
   font-size: 90%;
-  overflow: hidden; /*содержимое, выходящее за пределы блока элемента, будет скрыто.*/
+
   
 }
 fieldset {

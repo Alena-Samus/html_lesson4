@@ -6,34 +6,40 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Формы на веб-странице 3</title>
-  <link rel="stylesheet" href="css/vk.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-  <header>
-    <h1>Регистрация</h1>
-  </header>
+  
+  <form action="/signup" method="POST">
+    <header>
+      <h1>Регистрация</h1>
+    </header>
+  
   <main>
-    <div id="logo"><img src="images/VK-0.jpg" border="0" alt="" title="" /> <b>ВКонтакте.ру</b> - сетевой проект, который поможет Вам узнать больше о людях, которые Вас окружают, а также найти потерянных друзей и поддерживать с ними связь. Вы сможете делиться информацией, ограничивая круг лиц, которым она будет доступна.
+    <fieldset>
+    <div ><img src="images/Vkontakte.gif" alt="" title="" /> <p class="info"><span class="letter">ВКонтакте.ру</span> - сетевой проект, который поможет Вам узнать больше о людях, которые Вас окружают, а также найти потерянных друзей и поддерживать с ними связь. Вы сможете делиться информацией, ограничивая круг лиц, которым она будет доступна.</p>
     </div>
+    </fieldset>
    
+      
+      
       <h2>Имя</h2>
-      <form action="/signup" method="POST">
-       
         <fieldset class="account-info">
-          <p class="name"><label>Имя:</label> 
-          <input type="text" name="first_name">
-        <label>Допускаются только настоящие имя и фамилия</label></p>
-          <p class="last_name"><label>Фамилия:</label> 
-          <input type="text" name="last_name"></p>
-          <p class="E-Mail"><label>E-Mail:</label> 
-          <input type="text" required="required" class="email notnull"></p>
-          <p class="password"><label>Пароль:</label>
-          <input type="password" name="password"></p>
           
-          <h3>Образование</h3>
+         <div class="name"> <label>Имя:<input type="text" name="first_name"><span class="dop">Допускаются только настоящие имя и фамилия</span></label></div>
+          <label>Фамилия: 
+          <input type="text" name="last_name"><span class="dop">Остальные регистрации будут удаляться</span></label>
+         <div class="E-Mail"> <label>E-Mail:
+          <input type="text" required="required"> </label> </div>
+         <div class="password"><label>Пароль:
+          <input type="password" name="password"></label></div>
+          </fieldset>
+       
 
-          <label>Страна:</label>
+          <h2>Образование</h2>
+        <fieldset class="account-info">
+          <label>Страна:
           <select name="country">
             <option>Россия</option>
             <option>Беларусь</option>
@@ -43,9 +49,9 @@
             <option>Латвия</option>
             <option>Эстония</option>
             <option>США</option>
-          </select>
+          </select></label>
 
-          <label>Город:</label>
+        <label>Город:
           <select name="city">
           <option>Минск</option>
           <option>Гродно</option>
@@ -53,44 +59,46 @@
           <option>Витебск</option>
           <option>Гомель</option>
           <option>Могилев</option>
-          <option>Бобруйск</option>
-          <option>Молодечно</option>
-          </select>
-
-          <h4>Школа</h4>
+          </select><div class="dop1">Город, где Вы учились в школе или вузе:</div></label>
+          
+        </fieldset>
+          <h3>Школа</h3>
+         <fieldset>
           <label>Школа:</label>
           <select name="school">
-            <option>Минск</option>
-            <option>Гродно</option>
-            <option>Брест</option>
-            <option>Витебск</option>
-            <option>Гомель</option>
-            <option>Могилев</option>
-            <option>Бобруйск</option>
-            <option>Молодечно</option>
+            <option>-Выберите школу-</option>
+            <option>СШ№1</option>
+            <option>СШ№2</option>
+            <option>СШ№3</option>
+            <option>СШ№4</option>
+            <option>СШ№5</option>
+            <option>СШ№6</option>
+            <option>СШ№7</option>
+            <option>СШ№8</option>
           </select>
+          </fieldset>
 
-          <h4>Университет</h4>
+          <h3>Университет</h3>
+          <fieldset>
           <label>Вуз:</label>
           <select name="univer">
-            <option>Минск</option>
-            <option>Гродно</option>
-            <option>Брест</option>
-            <option>Витебск</option>
-            <option>Гомель</option>
-            <option>Могилев</option>
-            <option>Бобруйск</option>
-            <option>Молодечно</option>
+            <option>-Выберите ВУЗ-</option>
+            <option>БГУ</option>
+            <option>ГрГУ</option>
+            <option>БрГУ</option>
+            <option>ВГУ</option>
+            <option>ГГУ</option>
+            <option>МГУ</option>
           </select>
 
         </fieldset>
-        <fieldset class="account-action">
-          <input class="btn" type="submit" name="submit" value="Зарегистрироваться">
-        </fieldset>
+       
+         <div class="btn"> <input type="submit" name="submit" value="Зарегистрироваться"></div>
+       
       </form>
   </main>
   <footer class="foot">
-    Фактом регистрации Вы соглашаетесь с Пользовательским соглашением
+    Фактом регистрации Вы соглашаетесь с <a href="#">Пользовательским соглашением</a>
   </footer>
 </body>
 
