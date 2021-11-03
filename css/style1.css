@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 h1 {
-  font: 18px/1.8 "Roboto Condensed";
+  font: 18px/1.8 "Roboto Condensed", Helvetica, Arial, sans-serif;
   text-align: center;
   font-weight: 800;
   text-transform: uppercase;
@@ -14,7 +14,7 @@ h1 {
  
   }
 h2 {
-  font: 16px "HelveticaNeue", Helvetica, Arial, sans-serif;
+  font: 16px "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: bold;
   padding-bottom: 5px;
   padding-top: 8px;
@@ -22,7 +22,7 @@ h2 {
   }
 
 p {
-  font: 11px "Helvetica Neue";
+  font: 11px "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0px 30px  0px 27px;
   line-height: 12px;
   letter-spacing: 0.3px;
@@ -38,7 +38,7 @@ p {
 
 .foot {
   
-  font: 11px "Helvetica Neue";
+  font: 11px "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #c6c7cc;
   text-align: center;
   padding-top: 10px;
@@ -69,6 +69,7 @@ input {
   font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin-bottom: 12px;
   text-align: left;
+  padding-left: 5px;
 }
 legend {
   font-size: 15px;
@@ -104,9 +105,9 @@ legend {
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
   color: #636466;
   width: 100%;
-  padding: 5px 2px;
+  padding: 5px 5px;
   font-size: 10px;
-  font-family: "Helvetica Neue";
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   
 }
 .account-info select {
@@ -136,7 +137,7 @@ legend {
   color: #fff;
   cursor: pointer;
   padding: 7px 15px;
-  font-family: "Helvetica Neue";
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 12px;
   font-weight: 700;
   letter-spacing: 0.1px;
