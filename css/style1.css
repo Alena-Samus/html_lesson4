@@ -3,31 +3,42 @@
 *:after {
   box-sizing: border-box;
 }
+
+
 h1 {
-  font: 18px/1.8 "Roboto Condensed", Helvetica, Arial, sans-serif;
+  font: 1.2em "Roboto Condensed", Helvetica, Arial, sans-serif;
   text-align: center;
   font-weight: 800;
-  text-transform: uppercase;
-  letter-spacing: 1.6px;
+  margin-top: 16px ;
+  letter-spacing: 0.5px;
+
  
   
  
   }
 h2 {
-  font: 16px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 1.2em Arial, sans-serif;
   font-weight: bold;
-  padding-bottom: 5px;
-  padding-top: 8px;
-   
+  margin-top: 29px;
+  margin-left: -2px;
+  letter-spacing: -0.7px;
   }
+
+  legend {
+  font-size: 17px;
+  margin-top: 10px;
+  padding-left: 13px;
+  font-weight: normal;
+  letter-spacing: -0.6px;
+  margin-bottom: 15px;
+}
 
 p {
   font: 11px "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0px 30px  0px 27px;
   line-height: 12px;
   letter-spacing: 0.3px;
-  
-    
+  padding-left: 0;    
  }
 
 .c1 {
@@ -38,23 +49,26 @@ p {
 
 .foot {
   
-  font: 11px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 0.8em "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #c6c7cc;
   text-align: center;
   padding-top: 10px;
   width: 320px;
-  margin: 0;
+  margin-left: 90px;
   letter-spacing: -0.2px;
   
   }
 
 form {
-  width: 320px;
-  border: 1px solid #c6c7cc;
+  width: 360px;
+  border: 1px solid  #c6c7cc;
   border-radius: 5px;
-  font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 0.9em "Helvetica Neue", Helvetica, Arial, sans-serif;
   overflow: hidden;
   text-align: center;
+  margin-top: 21px;
+  margin-left: 69px;
+ 
   
   
 }
@@ -63,26 +77,19 @@ fieldset {
   margin: 0;
   padding: 0;
 }
+
 input {
-  
   border-radius: 5px;
-  font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin-bottom: 12px;
+  font: 1em "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-align: left;
   padding-left: 5px;
-}
-legend {
-  font-size: 15px;
-  padding-top: 7px;
-  padding-left: 5px;
-  margin-bottom: 8px;
-  font-weight: normal;
-  letter-spacing: -0.4px;
 
 }
+
+
 
 .account-info {
-  padding: 18px 20px 0 18px;
+  padding: 18px 22px 0 18px;
   }
 
 
@@ -91,13 +98,14 @@ legend {
   display: block;
   text-align: left;
   font-weight: 600;
-  font-size: 13px;  
-  margin-bottom: 2px;
-  padding-left: 0px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
- 
-}
+  margin-bottom: 5px;
+  font-size: 1em;
+  font-family:  Arial, sans-serif;
+  margin-left: 2px;  
+  letter-spacing: -0.3px;
+ }
 
+ 
 
 .account-info input {
   background: #fff;
@@ -105,55 +113,95 @@ legend {
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
   color: #636466;
   width: 100%;
-  padding: 5px 5px;
-  font-size: 10px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  
+  padding: 6px 0px 6px 2px;
+  font-size: 0.8em;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;  
+  margin-left: 2px;
+  margin-bottom: 15px;
+
 }
+
 .account-info select {
   background: #fff;
   border: 1px solid #c6c7cc;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
   color: #636466;
-  margin-bottom: 13px;
-  font-size: 10px;
-  padding: 5px 5px;
-  
-  
+  margin-top: -1px;
+  margin-bottom: 10px;
+  margin-left: 2px;
+  font-size: 11px;
+  padding: 7px 7px;
+  letter-spacing: 0.4px;
 }
+
+.account-info input[name="phone"]{
+padding-top: 6px;
+padding-left: 3px;
+letter-spacing: -0.1px;
+margin-bottom: 14px; 
+}
+
+.account-info input[type="password"]{
+
+ padding-left: 6px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 16px;
+  font-size: 0.55em;
+}
+
+.account-info input[name="password_confirm"]{
+
+margin-bottom: 3px;
+}
+
+
 .account-action {
   background: #f0f0f2;
   border-top: 1px solid #c6c7cc;
- padding-top: 16px;
- margin-top: 2px;
+  margin-left: 0;
+  margin-top: 13px;  
+  padding-top: 27px;
+  padding-left: 30px;
+  padding-right: 15px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 
-
-  
-  
 }
+
+
+
 .account-action .btn {
   background: linear-gradient(#49708f, #293f50);
   border: 0;
   color: #fff;
   cursor: pointer;
-  padding: 7px 15px;
+  padding: 8px 13px 8px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 12px;
+  font-size: 1em;
   font-weight: 700;
-  letter-spacing: 0.1px;
-  margin-top: 10px;
-  margin-bottom: 27px;
+  letter-spacing: 0.2px;
+margin-right: 15px;
+  margin-top: 3px;
+  margin-bottom: 28px;
   
 }
 .account-action label {
-  color: #7c7c80;
-  font-size: 9px;
-  text-align: center;
- 
-  
+  font-size: 0.8em;
+  text-align: center;  
 }
 
+.account-action input{
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
 
+.rool{
+  margin-top: 1px; 
+  letter-spacing: -0.4px;
+  margin-bottom: 8px;
+  line-height: 14px;
+  
+}
 
 input[type="text"], input[type="email"],  select, textarea {
   width: 100%;
@@ -162,11 +210,8 @@ input[type="text"], input[type="email"],  select, textarea {
 
 
 body{
-  width: 320px;
-  margin: auto auto;
+  width: 500px;
+  margin: 0;
+  padding: 0;
 }
 
-.a1{
-  margin: 0;
-  text-align: center;
-}
