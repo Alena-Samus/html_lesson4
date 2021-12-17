@@ -4,50 +4,51 @@ h1, h2, h3, h4 {
   color: #49678D;
 }
 h1 {
-  font-size: 1.4em;
+  font-size: 1.1em;
   font-weight: normal;
   letter-spacing: 0.2pt;
   border-bottom: 3px solid #f0f0f2; 
   margin-top: 0;
-  padding: 0 0 20px 0; 
+  padding: 0 0 16px 0; 
 
   }
 
 h2 {
-  font-size: 1.25em;
+  font-size: 1em;
   font-weight: bold;
   border-bottom: 3px solid #f0f0f2; 
   clear: both;
-  padding: 11px 0 21px 0; 
+  padding: 8px 0 14px 0; 
   }
 
 h3 {
-  font-size: 1.5em;
+  font-size: 1.6em;
   letter-spacing: 0.5pt;
   font-weight: bold;
   border-bottom: 2px solid #f0f0f2; 
-  padding: 30px 0 18px 0; 
+  padding: 29px 0 15px 0; 
   }
+
 h4 {
   font-size: 1.3em;
   letter-spacing: 0.2pt;
   font-weight: bold;
-  margin-bottom: 15px;
+  margin-bottom: 7px;
   border-bottom: 2px solid #f0f0f2; 
-  padding: 28px 0 15px 0; 
+  padding: 26px 0 15px 0; 
   }
 
 #logo{                            
   font-family:Verdana, Helvetica, Arial, sans-serif;
   text-align: left;
   width: 950px;
-  font-size: 1em;
-  letter-spacing: 0.1pt;
-  line-height: 14pt;
-  padding: 3px 30px 0 5px; 
+  font-size: 0.8em;
+  letter-spacing: -0.14px;
+  line-height: 13pt;
+  padding: 1px 30px 0 1px; 
 }
 img {
-width: 38px;
+width: 30px;
 float:left;
 margin: 7px 0 0 5px;
 padding: 3px 14px 0 0; 
@@ -57,7 +58,7 @@ padding: 3px 14px 0 0;
 form {
   font-family: Verdana, Helvetica, Arial, sans-serif;
   text-align: left;
-  font-size: 0.8em;
+  font-size: 0.6em;
   overflow: hidden; 
   
 }
@@ -69,58 +70,56 @@ fieldset {
 
 .name{
 padding: 0 0 0 31px; 
-margin-top:4px; 
-margin-left: 9px;
-margin-bottom: 20px;
+margin-top:2px; 
+margin-left: 2px;
+margin-bottom: 15px;
 vertical-align: middle;
 }
 
 .name input{
-width: 205px;
+width: 150px;
 margin-left: 1px;
-padding-top: 4px;
-padding-bottom: 4px;
+
 }
 
 .last_name{
-  margin-bottom: 20px;
+  margin-bottom: 15px;
+}
+
+.account-info .last_name label{
+  letter-spacing: 0.3px;
 }
 
 .last_name input{
-width: 205px;
-padding-top: 4px;
-padding-bottom: 4px;
-
+width: 150px;
 }
 
 .E-Mail input{
-width: 205px;
-padding-top: 3px;
-padding-bottom: 3px;
+width: 150px;
 
+}
+.account-info .E-Mail label{
+  padding-left: 1px;
 }
 
 .E-Mail{
 padding: 0 0 0 22px; 
-margin-bottom: 20px;
+margin-bottom: 15px;
 }
 
 
 .password{
 padding: 0 0 0 12px; 
-margin-bottom: 35px;
+margin-bottom: 23px;
 }
 
 .password input{
-width: 205px;
-padding-top: 4px;
-padding-bottom: 4px;
-
+width: 150px;
 }
 
 .country{
-margin-left: 24px; 
-margin-bottom: 18px;
+margin-left: 18px; 
+margin-bottom: 16px;
 
 }
 
@@ -128,40 +127,40 @@ margin-bottom: 18px;
 
 
 .city{
-margin-left: 36px; 
+margin-left: 28px; 
 
 }
 
 
 .school{
-padding: 0 0 0 23px; 
-margin-bottom: -35px;
+padding: 0 0 0 20px; 
 }
 
 .account-info .school_select{
-  padding-left: 2px;
   padding-top: 1px;
   padding-bottom: 1px;
-  width: 208px;
-
-  
+  width: 167px;
+  font-size: 1.5em;
+  letter-spacing: -0.5px;  
 }
 
 .univ_h4{
-  letter-spacing: -0.2px;
-  margin-top: 24px;
-
-}
+  padding-top: 0;
+  padding-bottom: 13px;
+  margin-top:13px;
+  letter-spacing: 0.7pt;
+ }
 
 .univer{
-padding: 3px 0 0 52px; 
+padding: 2px 0 0 42px; 
 margin-bottom: 22px;
 
 }
 
 .account-info  .univ_select{
-  padding: 0 2px 0 2px;  
-  width: 206px;
+  letter-spacing: -0.2px;
+
+  width: 167px;
  
   
 }
@@ -184,9 +183,9 @@ padding: 5px 0 0 25px;
   background: #fff;
   border: 1px solid #c6c7cc;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
-  width: 205px;
-  font-size: 1.3em;
-  padding: 2px 1px;
+  width: 165px;
+  font-size: 1.5em;
+  padding: 0 1px;
  
 }
 
@@ -194,47 +193,48 @@ cite{
   font-family: Verdana, Helvetica, Arial, sans-serif;
   font-size: 1em;
   font-style: normal;
-  letter-spacing: -0.3pt;
+  letter-spacing: -0.35px;
   color: #A0A0A4;
 }
 span{
   font-family: Verdana, Helvetica, Arial, sans-serif;
-  padding: 0 0 0 62px; 
+  padding: 0 0 0 50px; 
   font-size: 1em;
   font-weight: bolder;
   color: #636466;
-  letter-spacing: -0.1pt;
-}
+  letter-spacing: 0.05pt;
+  }
 
 .account-action .btn {
   background:   #f0f0f2;
   border: 1px solid #c6c7cc;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
   cursor: pointer;
-  margin-top: 15px;
-  margin-left: 42px;
-  width: 260px;
+  margin-top: 9px;
+  margin-left: 33px;
+  width: 210px;
   font-size: 1.3em;
-  padding-top: 1px;
-  padding-bottom: 4px;
-  padding-right: 15px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  padding-right: 12px;
+
   color: black;
  
 }
 
 .foot{
   font-family: Verdana, Helvetica, Arial, sans-serif;
-  font-size: 71%;
-  letter-spacing: 0.6pt;
-  margin-top: 2px;
-  margin-left: 40px;
+  font-size: 0.7em;
+  letter-spacing: -0.7px;
+ 
+  margin-left: 30px;
   color: #A0A0A4;
   
 }
 .foot a{                   
   text-decoration: none;   
   font-family: Verdana, Helvetica, Arial, sans-serif;
-  font-size: 1em;
+  
   color: #49678D;
 
   }
