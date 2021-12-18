@@ -1,10 +1,10 @@
 h1, h2, h3, h4 {
-  font-family:  Verdana, Helvetica, Arial, sans-serif;
   text-align: left;
   color: #49678D;
   }
 
   h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 1.1em;
   font-weight: normal;
   letter-spacing: 0.2pt;
@@ -15,28 +15,33 @@ h1, h2, h3, h4 {
   }
 
 h2 {
+  
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 1em;
   font-weight: 800;
   border-bottom: 3px solid #f0f0f2; 
   clear: both;
-  padding: 8px 0 14px 0; 
+  padding: 6px 0 14px 0; 
   }
 
 h3 {
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 700;
   font-size: 1.6em;
   letter-spacing: 0.5pt;
   font-weight: 800;
   border-bottom: 2px solid #f0f0f2; 
-  padding: 29px 0 15px 0; 
+  padding: 27px 0 13px 0; 
   }
 
 h4 {
+  font-family: 'Noto Sans', sans-serif;
   font-size: 1.3em;
   letter-spacing: 0.2pt;
   font-weight: 800;
   margin-bottom: 7px;
   border-bottom: 2px solid #f0f0f2; 
-  padding: 26px 0 15px 0; 
+  padding: 22px 0 15px 0; 
   }
 
 #logo{                            
@@ -71,7 +76,7 @@ fieldset {
 
 .name{
 padding: 0 0 0 31px; 
-margin-top:2px; 
+margin-top:4px; 
 margin-left: 2px;
 margin-bottom: 15px;
 vertical-align: middle;
@@ -138,6 +143,7 @@ padding: 0 0 0 20px;
 }
 
 .account-info .school_select{
+  font-family: 'Noto Sans', sans-serif;
   padding-top: 1px;
   padding-bottom: 1px;
   width: 167px;
@@ -148,22 +154,19 @@ padding: 0 0 0 20px;
 .univ_h4{
   padding-top: 0;
   padding-bottom: 13px;
-  margin-top:13px;
+  margin-top:10px;
   letter-spacing: 0.7pt;
  }
 
 .univer{
 padding: 2px 0 0 42px; 
 margin-bottom: 22px;
-
 }
 
 .account-info  .univ_select{
-  letter-spacing: -0.2px;
-
-  width: 167px;
- 
-  
+  letter-spacing: -0.5px;
+  font-family: 'Noto Sans', sans-serif;
+  width: 167px;  
 }
 
 .account-info label {
@@ -191,19 +194,20 @@ padding: 5px 0 0 25px;
 }
 
 cite{
-  font-family: Verdana, Helvetica, Arial, sans-serif;
-  font-size: 1em;
+  font-family: Tahoma, Helvetica, Arial, sans-serif;
+  font-size: 1.1em;
   font-style: normal;
-  letter-spacing: -0.35px;
+ letter-spacing: 0.1px;
   color: #A0A0A4;
 }
 span{
-  font-family: Verdana, Helvetica, Arial, sans-serif;
+  font-family: 'Noto Sans', sans-serif;
   padding: 0 0 0 50px; 
-  font-size: 1em;
-  font-weight: bolder;
+  font-size: 1.1em;
+  font-weight: 800;
   color: #636466;
-  letter-spacing: 0.05pt;
+  letter-spacing: -0.5px;
+
   }
 
 .account-action .btn {
@@ -218,7 +222,8 @@ span{
   letter-spacing: 0.5px;
   text-align: center;
   padding-right: 12px;
-
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 700;
   color: black;
  
 }
@@ -227,7 +232,6 @@ span{
   font-family: Verdana, Helvetica, Arial, sans-serif;
   font-size: 0.7em;
   letter-spacing: -0.7px;
- 
   margin-left: 30px;
   color: #A0A0A4;
   
@@ -235,7 +239,9 @@ span{
 .foot a{                   
   text-decoration: none;   
   font-family: Verdana, Helvetica, Arial, sans-serif;
-  
+  font-family: 'Noto Sans', sans-serif;
   color: #49678D;
+  font-weight: 700;
+  letter-spacing: -0.5px;
 
   }
