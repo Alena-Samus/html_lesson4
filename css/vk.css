@@ -2,8 +2,9 @@ h1, h2, h3, h4 {
   font-family:  Verdana, Helvetica, Arial, sans-serif;
   text-align: left;
   color: #49678D;
-}
-h1 {
+  }
+
+  h1 {
   font-size: 1.1em;
   font-weight: normal;
   letter-spacing: 0.2pt;
@@ -15,7 +16,7 @@ h1 {
 
 h2 {
   font-size: 1em;
-  font-weight: bold;
+  font-weight: 800;
   border-bottom: 3px solid #f0f0f2; 
   clear: both;
   padding: 8px 0 14px 0; 
@@ -24,7 +25,7 @@ h2 {
 h3 {
   font-size: 1.6em;
   letter-spacing: 0.5pt;
-  font-weight: bold;
+  font-weight: 800;
   border-bottom: 2px solid #f0f0f2; 
   padding: 29px 0 15px 0; 
   }
@@ -32,7 +33,7 @@ h3 {
 h4 {
   font-size: 1.3em;
   letter-spacing: 0.2pt;
-  font-weight: bold;
+  font-weight: 800;
   margin-bottom: 7px;
   border-bottom: 2px solid #f0f0f2; 
   padding: 26px 0 15px 0; 
