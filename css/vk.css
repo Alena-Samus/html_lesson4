@@ -1,245 +1,210 @@
-h1, h2, h3, h4 {
-  text-align: left;
-  color: #49678D;
-  }
 
-  h1 {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 1.1em;
-  font-weight: normal;
+h1 {
+  font-family:  Verdana, Helvetica, Arial, sans-serif;
+  text-align: left;
+  font-size: 110%;
+  font-weight: 500;
   letter-spacing: 0.2pt;
   border-bottom: 3px solid #f0f0f2; 
-  margin-top: 0;
-  padding: 0 0 16px 0; 
-
-  }
-
-h2 {
-  
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 1em;
-  font-weight: 800;
-  border-bottom: 3px solid #f0f0f2; 
-  clear: both;
-  padding: 6px 0 17px 0; 
-  }
-
-h3 {
-  font-family: 'Noto Sans', sans-serif;
-  font-size: 1.6em;
-  letter-spacing: 0.5pt;
-  font-weight: 900;
-  border-bottom: 2px solid #f0f0f2; 
-  padding: 26px 0 14px 0; 
-  }
-
-h4 {
-  font-family: 'Noto Sans', sans-serif;
-  font-size: 1.3em;
-  letter-spacing: 0.35pt;
-  font-weight: 800;
-  margin-bottom: 13px;
-  border-bottom: 2px solid #f0f0f2; 
-  padding: 25px 0 12px 0; 
+  padding: 0 0 15px 0;
+  color: #094277; 
+  margin-left: 1px;
   }
 
 #logo{                            
   font-family:Verdana, Helvetica, Arial, sans-serif;
   text-align: left;
-  width: 950px;
-  font-size: 0.8em;
-  letter-spacing: 0.1px;
-  line-height: 13pt;
-  padding: 1px 30px 0 1px; 
+  width: 700px;
+  font-size: 79%;
+  letter-spacing: -0.1pt;
+  line-height: 12pt;
+  padding: 3px 0 0 6px; 
+  
 }
-img {
-width: 30px;
-float:left;
-margin: 7px 0 0 5px;
-padding: 3px 14px 0 0; 
-}
+#logo a{                   
+  text-decoration: none;  
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  font-size: 100%;
+  color: black;
+  font-weight: 900;
+  letter-spacing: 0.8pt;
+  }
 
+img {
+width: 35px;
+float:left;
+margin: 7px 8px 0 0;
+padding: 0 0 0 0; 
+}
 
 form {
   font-family: Verdana, Helvetica, Arial, sans-serif;
   text-align: left;
-  font-size: 0.6em;
-  overflow: hidden; 
-  
+  font-size: 90%;
+  overflow: hidden;   
 }
+
+
 fieldset {
   border: 0;
   margin: 0;
   padding: 0;
 }
 
-.name{
-padding: 0 0 0 31px; 
-margin-top:2px; 
-margin-left: 2px;
-margin-bottom: 16px;
-vertical-align: middle;
-}
-
-.name input{
-width: 150px;
-margin-left: 1px;
-
-}
-
-.last_name{
-  margin-bottom: 16px;
-}
-
-.account-info .last_name label{
-  letter-spacing: 0.3px;
-}
-
-.last_name input{
-width: 150px;
-margin-left: 1px;
-}
-
-.E-Mail input{
-width: 150px;
-
-}
-.account-info .E-Mail label{
-margin-right: 3px;
-}
-
-.E-Mail{
-padding: 0 0px 0 19px; 
-margin-bottom: 16px;
-}
-
-
-.password{
-padding: 0 0 0 10px; 
-margin-bottom: 23px;
-}
-
-.password input{
-width: 150px;
-margin-left: 2px;
-}
-
-.country{
-margin-left: 20px; 
-margin-bottom: 15px;
-}
-
-
-
-
-.city{
-margin-left: 29px; 
-}
-
-
-.school{
-padding: 0 0 0 20px; 
-}
-
-.account-info .school_select{
-  font-family: 'Noto Sans', sans-serif;
-  width: 167px;
-  font-size: 1.3em;
-  letter-spacing: 0.3px; 
-  margin-left: 2px;
-}
-
-.univ_h4{
-  padding-top: 0;
-  padding-bottom: 13px;
-  margin-top:12px;
-  letter-spacing: 0.4pt;
- }
-
-.univer{
-padding: 0 0 0 42px; 
-margin-bottom: 22px;
-}
-
-.account-info  .univ_select{
-  
-  font-family: 'Noto Sans', sans-serif;
-  width: 167px;  
-}
-
 .account-info label {
 color: #636466;
-font-size: 1.3em;
-text-align: right;
+font-size: 90%;
 }
 
+h2 {
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  text-align: left;
+  font-size: 108%;
+  letter-spacing: -0.4pt;
+  font-weight: bold;
+  border-bottom: 3px solid #f0f0f2; 
+  clear: both;  
+  padding: 8px 0 15px 0; 
+  color: #49678D;
+  margin-bottom: 12px;
+  }
 
-
-/*.account-info input {
+.account-info input {
 border: 1px solid #c6c7cc;
 width: 150px;
-padding: 5px 0 0 25px;
+height: 16px;
+padding: 4px 0 0 6px;
+margin-top: 6px;
 }
-*/
-.account-info select{
-  background: #fff;
-  border: 1px solid #c6c7cc;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
-  width: 165px;
-  font-size: 1.4em;
-  padding: 0 1px;
- 
+.name{
+padding: 0 0 0 33px;
+margin-top: -5px; 
+}
+.last_name{
+padding: 0 0 0 0; 
+margin-top: -5px;
+
+}
+.E-Mail{
+margin-top: -6px; 
+padding: 0 0 0 19px; 
+}
+.password{
+padding: 0 0 0 10px; 
+margin-top: -5px;
 }
 
 cite{
-  font-family: Tahoma, Helvetica, Arial, sans-serif;
-  font-size: 1.1em;
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  font-size: 73%;
   font-style: normal;
- letter-spacing: 0.4px;
-  color: #A0A0A4;
+  letter-spacing:-0.6pt;
+  color: #c6c7cc;
+  font-weight: 500;
 }
-span{
-  font-family: Tahoma, Helvetica, Arial, sans-serif;
-  padding: 0 0 0 48px; 
-  font-size: 1.1em;
-  font-style: normal;
-  color: #636466;
-  font-weight: 700;
-  letter-spacing: 0.35px;
-
+h3 {
+  font-family: 'Noto Sans', sans-serif;
+  text-align: left;
+  font-size: 108%;
+  letter-spacing: 0.3pt;
+  font-weight: 800;
+  border-bottom: 2px solid #f0f0f2; 
+  padding: 34px 0 13px 1px; 
+  color: #49678D;
   }
 
+.account-info select {
+  font-family: 'Noto Sans', sans-serif;
+  background: #fff;
+  border: 1px solid #c6c7cc;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
+  color: black;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  width: 164px;
+  font-size: 0.9em;
+  letter-spacing: 0.1px;  
+  margin-bottom: -90px;
+}
+
+.country{
+padding: 1px 0 0 18px; 
+}
+.city{
+padding: 3px 0 12px 28px; 
+
+}
+
+span{
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  padding: 0 0 0 49px; 
+  font-size: 11px;
+  font-weight: 600;
+  color: #636466;
+  letter-spacing: -0.6pt;
+ 
+}
+
+h4 {
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  text-align: left;
+  font-size: 90%;
+  font-weight: bold;
+  border-bottom: 2px solid #f0f0f2; 
+  padding: 0 0 12px 2px;
+  margin: 28px 0 0 0;
+  color: #49678D;
+  }
+
+.school{
+padding: 0 0 0px 20px; 
+}
+
+ 
+.univ_h4 {
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  text-align: left;
+  font-size: 90%;
+  font-weight: bold;
+  border-bottom: 2px solid #f0f0f2; 
+  padding: 0 0 12px 1px;
+  margin: 6px 0 0 0;
+  color: #49678D;
+  }
+
+.univer{
+padding: 0 0 0 43px; 
+}
+
+
+.btn{
+  padding-left: 0px;
+}
 .account-action .btn {
   background:   #f0f0f2;
   border: 1px solid #c6c7cc;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
   cursor: pointer;
-  margin-top: 7px;
+  margin-top: 16px;
   margin-left: 32px;
   width: 210px;
-  font-size: 1.3em;
-  letter-spacing: 0.8px;
-  text-align: center;
- padding-right: 12px;
-  font-family: Tahoma, Helvetica, Arial, sans-serif;
-  color: black;
- 
+  font-size: 90%;
+  letter-spacing: 0.24pt;
 }
 
 .foot{
   font-family: Verdana, Helvetica, Arial, sans-serif;
-  font-size: 0.7em;
-  letter-spacing: -0.7px;
-  margin-left: 30px;
+  font-size: 66%;
+  letter-spacing: -0.5pt;
+  margin-top: 0;
+  margin-left: 32px;
   color: #A0A0A4;
   
 }
 .foot a{                   
-  text-decoration: none;   
+  text-decoration: none;  
   font-family: Verdana, Helvetica, Arial, sans-serif;
-  font-family: 'Noto Sans', sans-serif;
+  font-size: 100%;
   color: #49678D;
-  font-weight: 700;
-  letter-spacing: -0.5px;
-
+  letter-spacing: -0.6pt;
   }

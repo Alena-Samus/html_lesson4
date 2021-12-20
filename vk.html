@@ -22,21 +22,21 @@
     </fieldset>
       <form action="/signup" method="POST">
         <fieldset class="account-info">
-            <div class="name">
+            <p class="name">
               <label>Имя:</label> 
               <input type="text" name="first_name"> <cite> Допускаются только настоящие имя и фамилия</cite>
-          </div>
+            </p>
 
-            <div class="last_name">
+            <p class="last_name">
               <label>Фамилия:</label> 
-              <input type="text" name="last_name"> <cite> Остальные регистрации будут удаляться </cite></div>
+              <input type="text" name="last_name"> <cite> Остальные регистрации будут удаляться </cite></p>
 
-            <div class="E-Mail">
+            <p class="E-Mail">
                 <label>E-Mail:</label> 
-                <input type="text" required="required" class="email notnull"></div>
-                <div class="password">
+                <input type="text" required="required" class="email notnull"></p>
+                <p class="password">
                   <label>Пароль:</label>
-                  <input type="password" name="password"></div>
+                  <input type="password" name="password"></p>
           
           <h3>Образование</h3>
 
@@ -69,7 +69,7 @@
           <h4>Школа</h4>
           <p class="school">
           <label>Школа:</label>
-          <select class="school_select">
+          <select name="school">
             <option>- Выберите школу -</option>
             <option>СШ №1</option>
             <option>СШ №2</option>
@@ -82,9 +82,9 @@
 
           <h4 class="univ_h4">Университет</h4>
           <p class="univer">
-            <label>ВУЗ:</label>
-            <select class="univ_select">
-              <option>- Выберите Вуз -</option>
+            <label>Вуз:</label>
+            <select name="univer">
+              <option>- Выберите ВУЗ -</option>
               <option>БГУ</option>
               <option>БГТУ</option>
               <option>БГУИР</option>
