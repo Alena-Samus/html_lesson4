@@ -21,14 +21,7 @@ h1 {
   padding: 3px 0 0 6px; 
   
 }
-#logo a{                   
-  text-decoration: none;  
-  font-family: Verdana, Helvetica, Arial, sans-serif;
-  font-size: 100%;
-  color: black;
-  font-weight: 900;
-  letter-spacing: 0.8pt;
-  }
+
 
 img {
 width: 35px;
@@ -76,19 +69,22 @@ height: 16px;
 padding: 4px 0 0 6px;
 margin-top: 6px;
 }
+
 .name{
 padding: 0 0 0 33px;
 margin-top: -5px; 
 }
+
 .last_name{
 padding: 0 0 0 0; 
 margin-top: -5px;
-
 }
+
 .E-Mail{
 margin-top: -6px; 
 padding: 0 0 0 19px; 
 }
+
 .password{
 padding: 0 0 0 10px; 
 margin-top: -5px;
@@ -102,6 +98,7 @@ cite{
   color: #c6c7cc;
   font-weight: 500;
 }
+
 h3 {
   font-family: 'Noto Sans', sans-serif;
   text-align: left;
@@ -130,9 +127,9 @@ h3 {
 .country{
 padding: 1px 0 0 18px; 
 }
+
 .city{
 padding: 3px 0 12px 28px; 
-
 }
 
 span{
@@ -141,8 +138,7 @@ span{
   font-size: 11px;
   font-weight: 600;
   color: #636466;
-  letter-spacing: -0.6pt;
- 
+  letter-spacing: -0.6pt; 
 }
 
 h4 {
@@ -180,6 +176,7 @@ padding: 0 0 0 43px;
 .btn{
   padding-left: 0px;
 }
+
 .account-action .btn {
   background:   #f0f0f2;
   border: 1px solid #c6c7cc;
@@ -201,6 +198,7 @@ padding: 0 0 0 43px;
   color: #A0A0A4;
   
 }
+
 .foot a{                   
   text-decoration: none;  
   font-family: Verdana, Helvetica, Arial, sans-serif;
