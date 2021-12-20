@@ -12,9 +12,9 @@ h1 {
   text-transform: uppercase;
   transform: scalex(0.745);
   letter-spacing: 2px;
-  margin-bottom: 0;
- 
+  margin-bottom: 0; 
   }
+
 h2 {
   font: bolder 18px/1.6 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin-top: 20px;
@@ -22,33 +22,31 @@ h2 {
   }
 
 p {
-  font: 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
- 
+  font: 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif; 
 }
+
 .c1 {
   text-align: center;
   margin: auto;
 }
-
-.foot {
-  
-  font: 12px/1.2 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-align: center;
-  margin-top: 11px;
-  color: #a9b0b5;
-  
-  }
 
 form {
   border: 1px solid #c6c7cc;
   border-radius: 5px;
   font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
   overflow: hidden;
-
   width: 360px;
-  margin: 0 auto;
-  
+  margin: 0 auto;  
 }
+
+legend {
+  font: 16px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  margin-left: 12px;
+  padding-top: 10px;  
+}
+
 fieldset {
   border: 0;
   margin: 0;
@@ -63,15 +61,7 @@ input {
   margin-bottom: 16px;
 }
 
-legend {
-  font: 16px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin-top: 0px;
-  margin-bottom: 10px;
-  margin-left: 12px;
-  padding-top: 10px;
-  
-  
-}
+
 
 
 .account-info {
@@ -87,7 +77,6 @@ legend {
   letter-spacing: -0.2pt;
 }
 
-
 .account-info input {
   background: #fff;
   border: 1px solid #c6c7cc;
@@ -96,7 +85,6 @@ legend {
   width: 100%;
   padding-top: 0;
 }
-
 
 .account-info select {
   background: #fff;
@@ -108,9 +96,7 @@ legend {
   font-size: 12px;
   padding-left: 7px;
   padding-bottom: 7px;
-
 }
-
 
 .password{
   margin-top: 0px;
@@ -118,6 +104,7 @@ legend {
   padding-left: 5px;
  
 }
+
 .password_confirm{
   margin-top: 0px;
 }
@@ -125,8 +112,30 @@ legend {
 .email_notnull{
   font-size: 12px;
   letter-spacing: 1px;
-
 }
+
+input[type="text"], select, textarea {
+  width: 100%;
+  font-size: 12px;
+  padding-top: 3px;
+  padding-left: 1px;
+  letter-spacing: -0.4px;
+ 
+}
+
+input[type="password"]{
+  width: 100%;
+  height: 32px;
+  padding-left:10px;
+  font-size: 8px;
+}
+
+.foot {  
+  font: 12px/1.2 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+  margin-top: 11px;
+  color: #a9b0b5;
+  }
 
 
 .account-action {
@@ -168,20 +177,6 @@ legend {
 }
 
 
-input[type="text"], select, textarea {
-  width: 100%;
-  font-size: 12px;
-  padding-top: 3px;
-  padding-left: 1px;
-  letter-spacing: -0.4px;
- 
-}
 
-input[type="password"]{
-  width: 100%;
-  height: 32px;
-  padding-left:10px;
-  font-size: 8px;
-}
 
 a{color: rgb(42, 80, 163);}
